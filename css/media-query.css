@@ -1,0 +1,460 @@
+/*-----------------------contact-us-------------*/
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+
+}
+@media screen and (max-width: 1290px){
+    .mobile-app-img img{width:100%;}
+
+}
+@media screen and (max-width: 1199px){
+    .contact-list {
+        padding-bottom: 37px;
+    }
+    .it-work .li:before{
+        top:27px;
+        z-index: 9999;}
+    .it-work .li span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .it-work .li {
+        padding: 40px 100px;
+        padding-right: 50px;
+    }
+    .it-work .line-dot {
+        height: 80px;
+        bottom: -30px;
+    }
+    .banner-caption h1 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .azirspares-iconbox.style9 .texticon
+    {
+        right:48px;
+    }
+    #ct .ct-address-area-main .ct-postal-code h6.header6 {
+        width: 20% !important;
+    }
+
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+
+
+}
+@media screen and (max-width: 1100px){
+
+    .banner-caption h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .vc_custom{
+        top:-80px;
+    }
+
+}
+@media screen and (max-width: 991px){
+    .select-city2 {
+        margin-top: 20px !important;
+    }
+    .contact-list {
+        padding-bottom: 33px;
+    }
+    .main-header-text,.main-header-text2{font-size: 35px;}
+    .book-service h3{
+        font-size: 35px;
+        line-height: 40px;}
+    .services-by-wrapper{
+        margin-top: 40px; 
+    }
+    .azirspares-iconbox.style9 .iconbox-info{
+        padding-left: 100px;
+    }
+
+    #ct .ct-address-area-main .ct-postal-code h6.header6 {
+        width: 27% !important;
+    }
+    .it-work .li{
+        padding-right:0;
+        padding-top:20px;
+        font-size: 20px;
+    }
+    .it-work .li:before {
+        top: 5px;
+        z-index: 9999;
+    }
+    .it-work .li span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .azirspares-iconbox.style9 .title{
+        font-size: 22px;
+    }
+    .azirspares-iconbox.style9 .desc {
+        font-size: 17px;
+    }
+    .azirspares-iconbox.style9 .iconbox-inner {
+        padding: 50px 20px 55px 20px;
+    }
+    .services-outer-block {
+        width: 100%;
+        float: left;
+        min-height: 1px;
+    }	
+    .azirspares-iconbox.style9 .texticon{
+        right:0;
+        font-size: 20px;
+    }
+    .azirspares-iconbox.style9 .content{
+        padding-left: 10px;   
+    }
+    .phone-header.style1{
+        width:350px;
+    }
+    .iconbox-info .content h2{
+        font-size: 19px;
+    }
+    .iconbox-info .content .time{
+        font-size: 14px;
+    }
+    .social {
+        top: 10px;
+    }
+    .mail-us h3
+    {
+        margin-top:30px;
+    }
+    .social-icon{
+        margin:6px;
+    }
+    .services-outer-block a.services_name {
+        font-size: 19px;
+    }
+    .services_description span{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .banner-caption h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .banner-caption h3 {
+        font-size: 30px;
+        line-height: 20px;
+    } 
+    .vc_custom{
+        top:-70px;
+    }
+    .famiau-filter-dropdowns {
+        padding: 25px 30px 25px 30px;
+    }
+    .services-img-block a.services-img{
+        margin:10px auto;
+    }
+    .contact-list h2{
+        line-height: 20px;
+    }
+    .contact-list {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px){
+    .banner-caption h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width: 800px){
+    .vc_custom{
+        top:-70px;
+    }
+}
+
+@media screen and (max-width: 767px){
+/*    .famiau-filter-dropdowns {
+        padding: 15px 30px 30px 30px !important;
+    }*/
+    .res-paddd {
+        padding-top: 0px !important;
+    }
+    .services-outer-block a.services_name {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .container.ct-wrapper.cleanto{margin-bottom: 0px;}
+    .form-heading{border:none;}
+    #ct .ct-address-area-main .ct-postal-code h6.header6 {
+        width: 100% !important;
+    }
+
+    .ct-postal-code .ct-xs-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ct-login-existing .ct-xs-12
+    {
+        padding-left: 0;
+        padding-right:0;
+    }
+    .ct-extra-services-list.ct-common-box.add_on_lists .ct-xs-12{width:50%;}
+    .inner-page-banner img {
+        min-height: 150px;
+    }
+    .it-work .li {
+        padding: 30px 120px;
+        border: 1px solid #e8e8e8;
+        margin-top: 30px;
+        padding-right: 0;
+        font-size: 20px;
+    }
+    .it-work .line-dot{
+        display: none !important;
+    }
+    .it-work .li:before {
+        top: 10px;
+        z-index: 9999;
+        left: 10px;
+    }
+    .box-top{
+        top:40px; 
+    }
+    .azirspares-iconbox.style9 .texticon{
+        left:90px;
+    }
+    .azirspares-iconbox.style9 .desc {
+        font-size: 24px;
+    }
+    .iconbox-info .content .time {
+        font-size: 15px;
+    }
+    .design2,.design{
+        text-align: center;
+    }
+
+
+
+
+    .main-header-text2,.main-header-text{
+        font-size: 40px;
+    }
+    .mobile-app-img{
+        text-align: center;
+    }
+    .mobile-app-img img{
+        width:70%;
+    }
+    .top-header-right-part li.phn{display: none;}
+
+    .phone-header.style1{
+        display: none;
+    }
+    .banner-caption h3 {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    .banner-caption h1 {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .banner-caption {
+        float: none;
+        text-align: center;
+    }
+
+    .padding-topp {
+        padding-top: 79px;
+        padding-bottom: 30px;
+    }
+
+    .famiau-title{
+        min-width: 100%;
+    }
+    .vc_custom{
+        top:40px;
+    }
+    .top-header-right-part {
+        padding: 48px 30px 0px;
+    }
+    .famiau-filter-dropdowns {
+        padding: 30px 30px 30px 30px;
+    }
+    .pin {
+        margin-top: 20px;
+    }
+    .it-work {
+        margin-top: 50px;
+    }
+    .main-header-text2,.main-sub-head2{text-align: center;}
+    .bank-cards {
+        margin-top: 70px;
+        float: none;
+    }
+    .bank-cards img{
+        width:100%;
+    }
+    #ct .ct-custom-radio ul.ct-radio-list li.ct-new-user{padding-left: 0;}
+    .ct-new-user-details.remove_preferred_password_and_preferred_email{}
+    .book-now-slider{    display: none !important;}
+    #user_details_form .ct-xs-12
+    {
+        padding-left:0;
+        padding-right:0;}
+    #app.padding-topp
+    {    padding-top: 0;}
+    .services-img img {
+        width: 40px;
+    }
+    /* .services-img-block a.services-img { */
+    /* width: 85px; */
+    /* height: 84px; */
+    /* } */
+}
+@media screen and (max-width: 700px){
+    .services-outer-block:first-child{
+        /*padding-left: 75px;*/
+    }
+}
+@media screen and (max-width: 680px){
+    .logo {
+        padding: 30px 14px 30px 15px;
+        width: 190px;
+    }
+}
+@media screen and (max-width: 600px){
+    .main-sub-head {
+        line-height: 24px;
+        width: 76%;
+        margin: 0 auto;
+    }
+    .banner-heading{
+        font-size: 27px;
+    }
+    .services-outer-block {
+        padding: 20px 0px;
+    } 
+    .main-header-text2, .main-header-text {
+        font-size: 30px;
+    }
+    .book-service h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .book-service h2 {
+        font-size: 19px;
+        margin-bottom: 10px;
+        line-height: 22px;
+    }
+    .book-service img {
+        padding: 5px;
+        width: 40%;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    /* .services-by-wrapper .col-xs-4 { */
+    /* width: 50%; */
+    /* } */
+    .services-outer-block {
+        min-height: 175px;
+    }
+    .services-outer-block {
+        padding: 0px 0px;
+        width: 100%;
+        float: left;
+    }
+    .banner-caption h1 {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .top-header-right-part {
+        padding: 48px 10px 0px;
+    }
+    .top-header-right-part li{
+        margin: 0px 15px 0 10px;
+        font-size: 14px;
+
+    }
+    .top-header-right-part .user .down:after{
+        top:4px;
+    }
+    .top-header-right-part .user:before
+    {top: -7px;
+     left: -29px;
+    }
+    .logo img{width:80%;}
+    .banner-caption h1 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+    .main-sub-head {
+        line-height: 24px;
+    }
+    .main-header-text2, .main-header-text{
+        font-size: 30px;
+    }
+    .main-sub-head2{text-align: justify;}
+
+}
+@media screen and (max-width: 480px){
+    #ct .today-date .ct-selected-date-view {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .book-service h2 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        line-height: 19px;
+    }
+    .book-service h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .services-outer-block:first-child {
+        /* padding-left: 30px; */
+    }
+    .services-outer-block {
+        padding: 0px 0px;
+        width: 100%;
+        float: left;
+    }
+
+    .form-heading{
+        font-size: 20px;
+    }
+    .services-img-block a.services-img {
+        margin: 20px auto;
+    }
+    .services-outer-block a.services_name {
+        font-size: 15px;
+    }
+    .services_description span {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    .banner-caption h1 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .banner-caption h3 {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    .azirspares-iconbox.style9 .desc {
+        font-size: 22px;
+    }
+}
+

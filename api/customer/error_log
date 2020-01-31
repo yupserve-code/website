@@ -1,0 +1,72 @@
+[07-Mar-2019 19:09:41 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[07-Mar-2019 19:09:41 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 265
+[07-Mar-2019 19:09:41 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:09:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 96
+[07-Mar-2019 19:09:48 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 108
+[07-Mar-2019 19:09:48 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:10:34 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[07-Mar-2019 19:10:34 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 265
+[07-Mar-2019 19:10:34 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:10:54 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 96
+[07-Mar-2019 19:10:54 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 108
+[07-Mar-2019 19:10:54 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:12:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[07-Mar-2019 19:12:03 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 265
+[07-Mar-2019 19:12:03 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:12:10 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[07-Mar-2019 19:12:10 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 265
+[07-Mar-2019 19:12:10 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:12:13 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 96
+[07-Mar-2019 19:12:13 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 108
+[07-Mar-2019 19:12:13 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:12:42 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[07-Mar-2019 19:12:42 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 265
+[07-Mar-2019 19:12:42 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:16:08 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 96
+[07-Mar-2019 19:16:08 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 108
+[07-Mar-2019 19:16:09 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[07-Mar-2019 19:19:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 84
+[07-Mar-2019 19:19:38 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 96
+[07-Mar-2019 19:19:38 Asia/Kolkata] PHP Notice:  Trying to get property 'tax' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 97
+[07-Mar-2019 19:19:38 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 98
+[07-Mar-2019 19:19:39 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[07-Mar-2019 19:19:39 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 265
+[07-Mar-2019 19:19:39 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/download_invoice.php on line 83
+[08-Mar-2019 18:17:31 Asia/Kolkata] PHP Notice:  Undefined variable: row_token in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 133
+[08-Mar-2019 18:17:31 Asia/Kolkata] PHP Notice:  Trying to get property 'token' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 133
+[09-Mar-2019 20:15:40 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[09-Mar-2019 20:15:40 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 257
+[09-Mar-2019 20:15:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[09-Mar-2019 20:15:48 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 257
+[09-Mar-2019 20:15:50 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 96
+[09-Mar-2019 20:15:50 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 100
+[09-Mar-2019 20:16:35 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[09-Mar-2019 20:16:35 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 257
+[09-Mar-2019 20:28:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[09-Mar-2019 20:28:03 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 257
+[09-Mar-2019 20:30:27 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[09-Mar-2019 20:30:27 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 257
+[09-Mar-2019 20:30:32 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 96
+[09-Mar-2019 20:30:32 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/payment_details.php on line 100
+[09-Mar-2019 20:42:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 253
+[09-Mar-2019 20:42:03 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/booking_details.php on line 257
+[09-Mar-2019 20:56:11 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 84
+[09-Mar-2019 20:56:11 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 86
+[09-Mar-2019 20:56:11 Asia/Kolkata] PHP Notice:  Trying to get property 'total_tax' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 87
+[09-Mar-2019 20:56:11 Asia/Kolkata] PHP Notice:  Trying to get property 'total_discount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 88
+[09-Mar-2019 20:56:11 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 89
+[09-Mar-2019 20:58:23 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 84
+[09-Mar-2019 20:58:23 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 86
+[09-Mar-2019 20:58:23 Asia/Kolkata] PHP Notice:  Trying to get property 'total_tax' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 87
+[09-Mar-2019 20:58:23 Asia/Kolkata] PHP Notice:  Trying to get property 'total_discount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 88
+[09-Mar-2019 20:58:23 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 89
+[09-Mar-2019 21:06:57 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 84
+[09-Mar-2019 21:06:57 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 86
+[09-Mar-2019 21:06:57 Asia/Kolkata] PHP Notice:  Trying to get property 'total_tax' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 87
+[09-Mar-2019 21:06:57 Asia/Kolkata] PHP Notice:  Trying to get property 'total_discount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 88
+[09-Mar-2019 21:06:57 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 89
+[09-Mar-2019 21:11:55 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 84
+[09-Mar-2019 21:11:55 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 86
+[09-Mar-2019 21:11:55 Asia/Kolkata] PHP Notice:  Trying to get property 'total_tax' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 87
+[09-Mar-2019 21:11:55 Asia/Kolkata] PHP Notice:  Trying to get property 'total_discount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 88
+[09-Mar-2019 21:11:55 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/customer/make_payment.php on line 89

@@ -1,0 +1,189 @@
+[03-Mar-2019 10:32:51 Asia/Kolkata] PHP Notice:  Undefined index: remark in /home/hh85gvoc1mue/public_html/api/serviceboy/cancel_task.php on line 42
+[03-Mar-2019 10:39:46 Asia/Kolkata] PHP Notice:  Undefined index: remark in /home/hh85gvoc1mue/public_html/api/serviceboy/cancel_task.php on line 42
+[07-Mar-2019 19:05:52 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[07-Mar-2019 19:05:52 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[07-Mar-2019 19:14:15 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[07-Mar-2019 19:14:15 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[07-Mar-2019 19:30:16 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[07-Mar-2019 19:30:16 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[07-Mar-2019 19:30:23 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[07-Mar-2019 19:30:23 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[08-Mar-2019 10:11:15 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[08-Mar-2019 10:11:15 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[08-Mar-2019 10:43:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[08-Mar-2019 10:43:03 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[08-Mar-2019 10:55:18 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[08-Mar-2019 10:55:18 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[08-Mar-2019 10:57:09 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[08-Mar-2019 10:57:09 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[08-Mar-2019 10:57:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[08-Mar-2019 10:57:14 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[08-Mar-2019 10:57:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[08-Mar-2019 10:57:17 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[08-Mar-2019 11:04:40 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[08-Mar-2019 11:04:40 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 12:54:52 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 12:54:53 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 12:54:57 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 12:54:57 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 12:56:32 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 12:56:32 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 13:17:53 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 13:17:53 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 15:46:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 15:46:59 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 15:47:06 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 15:47:06 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 15:47:45 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 15:47:45 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:20:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:20:38 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:20:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:20:48 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:28:12 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:28:12 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:30:43 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:30:43 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:39:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:39:44 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:40:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:40:04 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:52:29 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:52:29 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:55:21 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:55:21 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:55:33 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:55:33 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:55:43 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:55:43 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 16:57:07 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 16:57:07 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 17:17:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 17:17:25 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 17:19:54 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 17:19:54 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 17:20:43 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 17:20:43 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 17:20:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 17:20:59 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 17:27:11 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 17:27:11 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 17:29:51 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 239
+[09-Mar-2019 17:29:51 Asia/Kolkata] PHP Notice:  Trying to get property 'total' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 251
+[09-Mar-2019 18:08:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 18:08:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 18:09:06 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 18:09:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 18:09:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 18:10:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 18:10:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 18:10:55 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 20:15:33 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:15:33 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:18:45 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:18:45 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:20:18 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:20:18 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:30:21 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:30:21 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:30:27 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:30:27 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:34:26 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:34:26 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:37:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:37:25 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:38:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:38:19 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:38:28 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:38:28 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:39:31 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:39:31 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:39:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:39:38 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:41:36 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:41:36 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:42:00 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:42:00 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:42:05 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:42:05 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:42:15 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:42:15 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 20:44:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 253
+[09-Mar-2019 20:44:44 Asia/Kolkata] PHP Notice:  Trying to get property 'amount' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 257
+[09-Mar-2019 21:48:09 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 21:48:12 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 21:48:17 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 21:48:24 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 21:48:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 21:49:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[09-Mar-2019 21:50:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method cleanto_staff_commision::get_invoice_generated() in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php:235
+Stack trace:
+#0 /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php(286): Booking_Details->index()
+#1 {main}
+  thrown in /home/hh85gvoc1mue/public_html/api/serviceboy/booking_details.php on line 235
+[11-Mar-2019 17:49:07 Asia/Kolkata] PHP Notice:  Undefined index: remark in /home/hh85gvoc1mue/public_html/api/serviceboy/cancel_task.php on line 42
+[11-Mar-2019 17:57:13 Asia/Kolkata] PHP Notice:  Undefined index: remark in /home/hh85gvoc1mue/public_html/api/serviceboy/cancel_task.php on line 42
+[11-Mar-2019 20:24:37 Asia/Kolkata] PHP Notice:  Undefined variable: row_token in /home/hh85gvoc1mue/public_html/api/serviceboy/verify_task_otp.php on line 182
+[11-Mar-2019 20:24:37 Asia/Kolkata] PHP Notice:  Trying to get property 'token' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/verify_task_otp.php on line 182
+[11-Mar-2019 20:24:54 Asia/Kolkata] PHP Notice:  Undefined variable: row_token in /home/hh85gvoc1mue/public_html/api/serviceboy/update_task.php on line 204
+[11-Mar-2019 20:24:54 Asia/Kolkata] PHP Notice:  Trying to get property 'token' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/update_task.php on line 204
+[11-Mar-2019 20:25:20 Asia/Kolkata] PHP Notice:  Undefined variable: row_token in /home/hh85gvoc1mue/public_html/api/serviceboy/end_task.php on line 83
+[11-Mar-2019 20:25:20 Asia/Kolkata] PHP Notice:  Trying to get property 'token' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/end_task.php on line 83
+[11-Mar-2019 20:29:07 Asia/Kolkata] PHP Notice:  Undefined variable: row_token in /home/hh85gvoc1mue/public_html/api/serviceboy/payment_received.php on line 99
+[11-Mar-2019 20:29:07 Asia/Kolkata] PHP Notice:  Trying to get property 'token' of non-object in /home/hh85gvoc1mue/public_html/api/serviceboy/payment_received.php on line 99
