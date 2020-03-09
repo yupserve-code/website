@@ -656,8 +656,8 @@ $selected_lang_label = array(
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="<?php echo BASE_URL; ?>/assets/images/backgrounds/<?php echo $settings->get_option('ct_favicon_image'); ?>"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/chosen.min.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo BASE_URL; ?>css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo BASE_URL; ?>css/chosen.min.css" rel="stylesheet" type="text/css"/>
     <?php include_once 'include/header-scripts-style.php'; ?>
     <?php if ($settings->get_option('ct_seo_meta_description') != '') { ?>
         <meta name="description" content="<?php echo $settings->get_option('ct_seo_meta_description'); ?>">
@@ -2143,7 +2143,8 @@ document.getElementById('login_existing_user').click()"/>
                     </div>
                 </form>
 
-                                        <form id="user_details_form" class="clearfix" method="post" style="display: none;">
+					<?php if (!empty($_SESSION['ct_login_user_id'])) { ?>
+                                        <form id="user_details_form" class="clearfix" method="post" style="">
 
                                             <div class="ct-peronal-details">
                                                 <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row remove_guest_user_preferred_email">
@@ -2524,7 +2525,389 @@ document.getElementById('login_existing_user').click()"/>
                                             </div>
 
                                         </form>
+					<?php } else { ?>
+										<form id="user_details_form" class="clearfix" method="post" style="display: none;">
 
+                                            <div class="ct-peronal-details">
+                                                <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row remove_guest_user_preferred_email">
+                                                    <label for="ct-email-guest"><?php echo $label_language_values['preferred_email']; ?>
+                                                    </label>
+                                                    <input type="text" name="ct_email_guest" class="add_show_error_class error" id="ct-email-guest" />
+                                                </div>
+                                                <?php
+                                                $fn_check = explode(",", $settings->get_option("ct_bf_first_name"));
+
+                                                if ($fn_check[0] == 'on') {
+                                                    ?>
+                                                    <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row">
+                                                        <label for="ct-first-name"><?php echo $label_language_values['first_name']; ?></label>
+                                                        <input type="text" name="ct_first_name" class="add_show_error_class error" id="ct-first-name" />
+                                                    </div>
+                                                <?php } else {
+                                                    ?>
+                                                    <input type="hidden" name="ct_first_name" id="ct-first-name" class="add_show_error_class error" value=""/>
+                                                <?php }
+                                                ?>
+                                                <?php
+                                                $ln_check = explode(",", $settings->get_option("ct_bf_last_name"));
+                                                if ($ln_check[0] == 'on') {
+                                                    ?>
+                                                    <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row">
+                                                        <label for="ct-last-pass"><?php echo $label_language_values['last_name']; ?></label>
+                                                        <input type="text" class="add_show_error_class error" name="ct_last_name" id="ct-last-name"/>
+                                                    </div>
+                                                <?php } else {
+                                                    ?>
+                                                    <input type="hidden" name="ct_last_name" id="ct-last-name" class="add_show_error_class error" value=""/>
+                                                <?php } ?>
+                                                <?php
+                                                $phone_check = explode(",", $settings->get_option("ct_bf_phone"));
+
+                                                if ($phone_check[0] == 'on') {
+                                                    ?>
+                                                    <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row">
+                                                        <label for="ct-user-phone"><?php echo $label_language_values['phone']; ?></label>
+                                                        <input type="tel" value="" id="ct-user-phone" class="add_show_error_class error number_only" name="ct_user_phone" disabled/>
+                                                    </div>
+                                                <?php } else { ?>
+                                                    <input type="hidden" name="ct_user_phone" id="ct-user-phone" class="add_show_error_class error" value=""/>
+                                                <?php } ?>
+                                                <!--                                            <div class="ct-new-user-details remove_preferred_password_and_preferred_email">-->
+                                                <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row">
+                                                    <label for="ct-email"><?php echo $label_language_values['preferred_email']; ?></label>
+                                                    <input type="text" name="ct_email" id="ct-email" class="add_show_error_class error"/>
+                                                </div>
+<!--                                                <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row">
+<label for="ct-preffered-pass"><?php echo $label_language_values['preferred_password']; ?></label>
+<input type="password" name="ct_preffered_pass" id="ct-preffered-pass" class="add_show_error_class error"/>
+</div>-->
+<!--</div>-->
+                                                <?php
+                                                $address_check = explode(",", $settings->get_option("ct_bf_address"));
+
+                                                if ($address_check[0] == 'on') {
+                                                    ?>
+
+                                                    <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row">
+
+                                                        <label for="ct-street-address"><?php echo $label_language_values['street_address']; ?></label>
+
+                                                        <input type="text" name="ct_street_address" id="ct-street-address" class="add_show_error_class error" />
+
+                                                    </div>
+
+                                                <?php } else {
+                                                    ?>
+
+                                                    <input type="hidden" name="ct_street_address" id="ct-street-address" class="add_show_error_class error" value=""/>
+
+                                                <?php }
+                                                ?>
+
+                                                <?php
+                                                $zip_check = explode(",", $settings->get_option("ct_bf_zip_code"));
+
+                                                if ($zip_check[0] == 'on') {
+                                                    ?>
+
+                                                    <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row remove_zip_code_class">
+
+                                                        <label for="ct-zip-code">Pincode</label>
+
+                                                        <input type="text" name="ct_zip_code" id="ct-zip-code" class="add_show_error_class error number_only" maxlength="6"/>
+
+                                                    </div>
+
+                                                <?php } else {
+                                                    ?>
+
+                                                    <input type="hidden" name="ct_zip_code" id="ct-zip-code" class="add_show_error_class error" value="" maxlength="6"/>
+
+                                                <?php }
+                                                ?>
+
+                                                <?php
+                                                $city_check = explode(",", $settings->get_option("ct_bf_city"));
+
+                                                if ($city_check[0] == 'on') {
+                                                    ?>
+
+                                                    <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row remove_city_class">
+
+                                                        <label for="ct-city"><?php echo $label_language_values['city']; ?></label>
+
+                                                        <input type="text" name="ct_city" id="ct-city" class="add_show_error_class error" />
+
+                                                    </div>
+
+                                                <?php } else {
+                                                    ?>
+
+                                                    <input type="hidden" name="ct_city" id="ct-city" class="add_show_error_class error" value=""/>
+
+                                                <?php }
+                                                ?>
+
+                                                <?php
+                                                $state_check = explode(",", $settings->get_option("ct_bf_state"));
+
+                                                if ($state_check[0] == 'on') {
+                                                    ?>
+
+                                                    <div class="ct-md-6 ct-sm-6 ct-xs-12 ct-form-row remove_state_class" style="state-margin">
+
+                                                        <label for="ct-state"><?php echo $label_language_values['state']; ?></label>
+
+                                                        <input type="text" name="ct_state" id="ct-state" class="add_show_error_class error" />
+
+                                                    </div>
+
+                                                <?php } else {
+                                                    ?>
+
+                                                    <input type="hidden" name="ct_state" id="ct-state" class="add_show_error_class error" value=""/>
+
+                                                <?php }
+                                                ?>
+
+                                                <?php
+                                                $notes_check = explode(",", $settings->get_option("ct_bf_notes"));
+
+                                                if ($notes_check[0] == 'on') {
+                                                    ?>
+
+                                                    <div class="ct-md-12 ct-xs-12 ct-form-row" style="padding-left: 0px;padding-right: 0px;">
+
+                                                        <label for="ct-notes"><?php echo $label_language_values['special_requests_notes']; ?></label>
+
+                                                        <textarea id="ct-notes" class="add_show_error_class error" rows="10"></textarea>
+
+                                                    </div>
+
+                                                <?php } else {
+                                                    ?>
+
+                                                    <input type="hidden" id="ct-notes" class="add_show_error_class error" value=""/>
+
+                                                <?php }
+                                                ?>
+
+                                                <?php
+                                                if ($settings->get_option('ct_vc_status') == "Y") {
+                                                    ?>
+
+                                                    <div class="ct-custom-radio ct-options-new ct-md-6 ct-sm-6 ct-xs-12 mb-15">
+
+                                                        <label><?php echo $label_language_values['do_you_have_a_vaccum_cleaner']; ?></label>
+
+                                                        <ul class="ct-radio-list">
+
+                                                            <li>
+
+                                                                <input id="vaccum-yes" type="radio" checked="checked" class="input-radio vc_status" name="vacuum-cleaner" value="Vacuum-Yes"/>
+
+                                                                <label for="vaccum-yes"><span></span><?php echo $label_language_values['yes']; ?></label>
+
+                                                            </li>
+
+                                                            <li>
+
+                                                                <input id="vaccum-no" type="radio" class="input-radio vc_status" name="vacuum-cleaner" value="Vacuum-No"/>
+
+                                                                <label for="vaccum-no"><span></span><?php echo $label_language_values['no']; ?></label>
+
+                                                            </li>
+
+                                                        </ul>
+
+                                                    </div>
+
+                                                <?php } ?>
+
+                                                <?php
+                                                if ($settings->get_option('ct_p_status') == "Y") {
+                                                    ?>
+
+                                                    <div class="ct-custom-radio ct-options-new ct-md-6 ct-sm-6 ct-xs-12 mb-10">
+
+                                                        <label><?php echo $label_language_values['do_you_have_parking']; ?></label>
+
+                                                        <ul class="ct-radio-list">
+
+                                                            <li>
+
+                                                                <input id="parking-yes" type="radio" checked="checked" class="input-radio p_status" name="parking" value="Parking-Yes"/>
+
+                                                                <label for="parking-yes"><span></span><?php echo $label_language_values['yes']; ?></label>
+
+                                                            </li>
+
+                                                            <li>
+
+                                                                <input id="parking-no" type="radio" class="input-radio p_status" name="parking" value="Parking-No"/>
+
+                                                                <label for="parking-no"><span></span><?php echo $label_language_values['no']; ?></label>
+
+                                                            </li>
+
+                                                        </ul>
+
+                                                    </div>
+
+                                                <?php } ?>
+
+                                                <?php if ($settings->get_option('ct_company_willwe_getin_status') != "" && $settings->get_option('ct_company_willwe_getin_status') == "Y") { ?>
+
+                                                    <div class="ct-options-new ct-md-12 ct-xs-12 mb-10 ct-form-row">
+
+                                                        <label><?php echo $label_language_values['how_will_we_get_in']; ?></label>
+
+
+
+                                                        <div class="ct-option-select">
+
+                                                            <select class="ct-option-select" id="contact_status">
+
+                                                                <option value="I'll be at home"><?php echo $label_language_values['i_will_be_at_home']; ?></option>
+
+                                                                <option value="Please call me"><?php echo $label_language_values['please_call_me']; ?></option>
+
+                                                                <option value="The key is with the doorman"><?php echo $label_language_values['the_key_is_with_the_doorman']; ?></option>
+
+                                                                <option value="Other"><?php echo $label_language_values['other']; ?></option>
+
+                                                            </select>
+
+                                                        </div>
+
+                                                        <div class="ct-option-others pt-10 ct_hidden">
+
+                                                            <input type="text" name="other_contact_status" class="add_show_error_class error" id="other_contact_status" />
+
+                                                        </div>
+
+                                                    </div>
+
+                                                <?php } ?>
+
+                                                <?php
+                                                if ($settings->get_option('ct_appointment_details_display') == 'on' && ($address_check[0] == 'on' || $zip_check[0] == 'on' || $city_check[0] == 'on' || $state_check[0] == 'on')) {
+                                                    ?>					  
+
+                                                    <div class="ct-md-12 ct-xs-12 ct-form-row np app-det">
+
+                                                        <h3 class="header3 pull-left"><?php echo $label_language_values['appointment_details']; ?></h3>
+
+                                                        <div class="pull-left ml-10">
+
+                                                            <div class="ct-custom-checkbox">
+
+                                                                <ul class="ct-checkbox-list">
+
+                                                                    <li>
+
+                                                                        <input type="checkbox" id="retype_status" /> 
+
+                                                                        <label for="retype_status" class="">
+
+                                                                            (<?php echo $label_language_values['same_as_above']; ?>) &nbsp;<span></span>
+
+                                                                        </label>
+
+                                                                    </li>
+
+                                                                </ul>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="cb"></div>
+
+
+
+                                                        <?php
+                                                        if ($address_check[0] == 'on') {
+                                                            ?>
+
+                                                            <div class="ct-md-12 ct-xs-12 ct-form-row">
+
+                                                                <label for="app-notes"><?php echo $label_language_values['appointment_address']; ?></label>
+
+                                                                <input type="text" id="app-street-address" name="app_street_address" class="add_show_error_class error" >
+
+                                                            </div>
+
+                                                        <?php } else { ?>
+
+                                                            <input type="hidden" name="app_street_address" id="app-street-address" class="add_show_error_class error" value=""/>
+
+                                                        <?php } ?>
+
+                                                        <?php if ($zip_check[0] == 'on') { ?>
+
+                                                            <div class="ct-md-4 ct-sm-4 ct-xs-12 ct-form-row app-dett">
+
+                                                                <label for="app-zip-code">Appointment Pincode</label>
+
+                                                                <input type="text" name="app_zip_code" id="app-zip-code" class="add_show_error_class error"  <?php
+                                                                if ($settings->get_option('ct_postalcode_status') == 'Y') {
+
+                                                                    echo "readonly";
+                                                                }
+                                                                ?>/>
+
+                                                            </div>
+
+                                                        <?php } else {
+                                                            ?>
+
+                                                            <input type="hidden" name="app_zip_code" id="app-zip-code" class="add_show_error_class error" value=""/>
+
+                                                        <?php } ?>
+
+                                                        <?php
+                                                        if ($city_check[0] == 'on') {
+                                                            ?>
+
+                                                            <div class="ct-md-4 ct-sm-4 ct-xs-12 ct-form-row">
+
+                                                                <label for="app-city"><?php echo $label_language_values['appointment_city']; ?></label>
+
+                                                                <input type="text" name="app_city" id="app-city" class="add_show_error_class error" />
+
+                                                            </div>
+
+                                                        <?php } else { ?>
+
+                                                            <input type="hidden" name="app_city" id="app-city" class="add_show_error_class error" value=""/>
+
+                                                        <?php } ?>
+
+                                                        <?php if ($state_check[0] == 'on') { ?>
+
+                                                            <div class="ct-md-4 ct-sm-4 ct-xs-12 ct-form-row">
+
+                                                                <label for="app-state"><?php echo $label_language_values['appointment_state']; ?></label>
+
+                                                                <input type="text" name="app_state" id="app-state" class="add_show_error_class error" />
+
+                                                            </div>
+
+                                                        <?php } else { ?>
+
+                                                            <input type="hidden" name="app_state" id="app-state" class="add_show_error_class error" value=""/>
+
+                                                        <?php } ?>
+
+                                                    </div>
+
+                                                <?php } ?>	
+
+                                            </div>
+
+                                        </form>
+					<?php } ?>
                                     </div>
 
                                     <!-- main details end -->
@@ -2988,7 +3371,9 @@ class="reverse_coupon" title="<?php echo $label_language_values['remove_applied_
         </div>
     <?php } ?>
     <?php if ($settings->get_option('ct_allow_terms_and_conditions') == 'Y' || $settings->get_option('ct_allow_privacy_policy') == 'Y') { ?>
-        <div class="bi-terms-agree" style="display: none;" id="termCondition">
+	
+	<?php if (!empty($_SESSION['ct_login_user_id'])) { ?>
+        <div class="bi-terms-agree" style="" id="termCondition">
             <div class="ct-custom-checkbox">
                 <ul class="ct-checkbox-list">
                     <li>
@@ -3037,8 +3422,61 @@ class="reverse_coupon" title="<?php echo $label_language_values['remove_applied_
             </div>
             <label class="terms_and_condition"></label>
         </div>
+	<?php } else { ?>
+		<div class="bi-terms-agree" style="display: none;" id="termCondition">
+            <div class="ct-custom-checkbox">
+                <ul class="ct-checkbox-list">
+                    <li>
+                        <input type="checkbox" name="accept-conditions" class="input-radio" id="accept-conditions"/>
+                        <label for="accept-conditions" class="">
+                            <span></span>
+                            <?php echo $label_language_values['i_have_read_and_accepted_the']; ?>
+                            <?php if ($settings->get_option('ct_allow_terms_and_conditions') == 'Y' && $settings->get_option('ct_allow_privacy_policy') == 'N') { ?>
+                                <a href="<?php
+                                if ($settings->get_option('ct_terms_condition_link') != '') {
+                                    echo $settings->get_option('ct_terms_condition_link');
+                                } else {
+                                    echo 'javascript:void(0)';
+                                }
+                                ?>" <?php if ($settings->get_option('ct_terms_condition_link') != '') { ?> target="-BLANK" <?php } ?> class="ct-link">
+                                    <?php echo $label_language_values['terms_and_condition']; ?>
+                                </a>.
+                            <?php } else if ($settings->get_option('ct_allow_terms_and_conditions') == 'N' && $settings->get_option('ct_allow_privacy_policy') == 'Y') { ?>
+                                <a href="<?php
+                                if ($settings->get_option('ct_privacy_policy_link') != '') {
+                                    echo $settings->get_option('ct_privacy_policy_link');
+                                } else {
+                                    echo 'javascript:void(0)';
+                                }
+                                ?>" <?php if ($settings->get_option('ct_privacy_policy_link') != '') { ?> target="-BLANK" <?php } ?> class="ct-link"><?php echo $label_language_values['privacy_policy']; ?></a>.
+                            <?php } else { ?>
+                                <a href="<?php
+                                if ($settings->get_option('ct_terms_condition_link') != '') {
+                                    echo $settings->get_option('ct_terms_condition_link');
+                                } else {
+                                    echo 'javascript:void(0)';
+                                }
+                                ?>" <?php if ($settings->get_option('ct_terms_condition_link') != '') { ?> target="-BLANK" <?php } ?> class="ct-link"><?php echo $label_language_values['terms_and_condition']; ?></a>
+                                <?php echo $label_language_values['and']; ?>
+                                <a href="<?php
+                                if ($settings->get_option('ct_privacy_policy_link') != '') {
+                                    echo $settings->get_option('ct_privacy_policy_link');
+                                } else {
+                                    echo 'javascript:void(0)';
+                                }
+                                ?>" <?php if ($settings->get_option('ct_privacy_policy_link') != '') { ?> target="-BLANK" <?php } ?> class="ct-link"><?php echo $label_language_values['privacy_policy']; ?></a>.
+                               <?php } ?>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <label class="terms_and_condition"></label>
+        </div>
+		<?php } ?>
     <?php } ?>
-    <div class="ta-center fl comp-bok" style="display: none;" id="submitButton">
+	
+	<?php if (!empty($_SESSION['ct_login_user_id'])) { ?>
+    <div class="ta-center fl comp-bok" style="" id="submitButton">
         <?php if ($settings->get_option("ct_loader") == 'css' && $settings->get_option("ct_custom_css_loader") != '') { ?>
             <div class="ct-loading-main-complete_booking" align="center">
                 <?php echo $settings->get_option("ct_custom_css_loader"); ?>
@@ -3055,6 +3493,25 @@ class="reverse_coupon" title="<?php echo $label_language_values['remove_applied_
         <p class="complete-message">We will confirm your service request within 24 hours. Thank you very much!</p>
         <a href="javascript:void(0)" type='submit' data-currency_symbol="<?php echo $settings->get_option('ct_currency_symbol'); ?>" id='complete_bookings' class="ct-button ct-btn-big ct_remove_id"><?php echo $label_language_values['complete_booking']; ?></a>
     </div>
+	<?php } else { ?>
+	<div class="ta-center fl comp-bok" style="display: none;" id="submitButton">
+        <?php if ($settings->get_option("ct_loader") == 'css' && $settings->get_option("ct_custom_css_loader") != '') { ?>
+            <div class="ct-loading-main-complete_booking" align="center">
+                <?php echo $settings->get_option("ct_custom_css_loader"); ?>
+            </div>
+        <?php } elseif ($settings->get_option("ct_loader") == 'gif' && $settings->get_option("ct_custom_gif_loader") != '') { ?>
+            <div class="ct-loading-main-complete_booking" align="center">
+                <img style="margin-top:18%;" src="<?php echo BASE_URL; ?>/assets/images/gif-loader/<?php echo $settings->get_option("ct_custom_gif_loader"); ?>"></img>
+            </div>
+        <?php } else { ?>
+            <div class="ct-loading-main-complete_booking">
+                <div class="loader">Loading...</div>
+            </div>
+        <?php } ?>			
+        <p class="complete-message">We will confirm your service request within 24 hours. Thank you very much!</p>
+        <a href="javascript:void(0)" type='submit' data-currency_symbol="<?php echo $settings->get_option('ct_currency_symbol'); ?>" id='complete_bookings' class="ct-button ct-btn-big ct_remove_id"><?php echo $label_language_values['complete_booking']; ?></a>
+    </div>
+	<?php } ?>
 </div>
 </div>
                         <!-- left side end -->
@@ -3346,8 +3803,6 @@ if (isset($_SESSION['ct_login_user_id'])) {
                             
                             $('#isSent').val("sent");
                             $('#otpVerifyForm').show();
-                            
-
                         }
                         //alert(data);
                     });
@@ -3432,13 +3887,14 @@ if (isset($_SESSION['ct_login_user_id'])) {
 
     $(".new-user").on("change", function () {
         if ($('.new-user').is(':checked')) {
+			debugger
             var isSent = $('#isSent').val();
             var isVerify = $('#isVerify').val();
             if(isSent){
                 if(isVerify){
-                    $('#user_details_form').show();
-                    $('#termCondition').show();
-                    $('#submitButton').show();
+                    //$('#user_details_form').show();
+                    //$('#termCondition').show();
+                    //$('#submitButton').show();
                 }else{
                    $('#otpVerifyForm').show();
                 }

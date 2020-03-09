@@ -8,9 +8,9 @@ Options +FollowSymLinks
 #RewriteRule ^(.*)$ https://www.yupserve.com/$1 [R,L]
 #Force SSL on entire site
 RewriteEngine On
-RewriteBase /
-RewriteCond %{ENV:HTTPS} !on [NC]
-RewriteRule ^(.*)$ https://yupserve.com/$1 [R,L]
+RewriteBase /yupserve-demo/
+#RewriteCond %{ENV:HTTPS} !on [NC]
+#RewriteRule ^(.*)$ https://yupserve.com/$1 [R,L]
 
 # rewrite base to entire site
 #RewriteBase /
