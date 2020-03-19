@@ -584,7 +584,7 @@ $selected_lang_label = array(
                                                     <!-- <td><?php echo $k++; ?></td> -->
                                                     <td><?php echo $dd['text']; ?></td>
                                                     <td>
-                                                        <input type="hidden" name="order_id" id="order_id" class="order_id" value="<?php echo $dd['order_id']; ?>" />
+                                                        <input type="hidden" class="order_id" value="<?php echo $dd['order_id']; ?>" />
                                                         <a href="javascript:void(0);" id="<?php echo $dd['id']; ?>" class="ct_notification btn btn-info"><i class="fa fa-eye"></i></a>
                                                     </td>
                                                 </tr>
@@ -616,7 +616,8 @@ $selected_lang_label = array(
         });
         $('.dataTables_length').addClass('bs-select');
 
-        $('.ct_notification').on('click', function () {
+        $(document).on('click', '.ct_notification', function () {
+			debugger
             var id = $(this).attr('id');
             var order_id = $(this).siblings('.order_id').val();
             //alert(order_id);
@@ -627,6 +628,7 @@ $selected_lang_label = array(
                 url: site_url + "process.php",
                 data: dataString,
                 success: function (response) {
+					debugger
                     var data = $.parseJSON(response);
                     window.location.href = site_url + "view/" + order_id;
                     /*if (data['success']) {
